@@ -1,4 +1,4 @@
-package com.matthaigh27.chatgptwrapper
+package com.matthaigh27.bardwrapper
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -15,7 +15,7 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.window.OnBackInvokedDispatcher
-import com.matthaigh27.chatgptwrapper.databinding.ActivityMainBinding
+import com.matthaigh27.bardwrapper.databinding.ActivityMainBinding
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
 class MainActivity : Activity() {

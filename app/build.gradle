@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.matthaigh27.chatgptwrapper'
+    namespace 'com.matthaigh27.bardwrapper'
     compileSdk 33
 
     defaultConfig {
