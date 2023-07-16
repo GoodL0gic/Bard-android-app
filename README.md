@@ -2,7 +2,7 @@
 
 ## About
 
-This (unofficial) app acts as a webview wrapper for [chat.openai.com](https://chat.openai.com)
+This (unofficial) app acts as a webview wrapper for [bard.google.com](https://bard.google.com)
 
 
 <div align="center">
@@ -12,7 +12,7 @@ This (unofficial) app acts as a webview wrapper for [chat.openai.com](https://ch
 ## Screenshot
 
 <div align="center">
-<img src="./docs/assets/Screenshot_Pixel6pro.png" width="300"  />
+<img src="./docs/assets/Screenshot_20230716-190519_Bard_samsung-galaxys20ultra-cosmicgrey-portrait.png" width="300"  />
 </div>
 
 ## Installation
