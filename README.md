@@ -12,7 +12,7 @@ This (unofficial) app acts as a webview wrapper for [bard.google.com](https://ba
 ## Screenshot
 
 <div align="center">
-<img src="./docs/assets/Screenshot_20230716-190519_Bard_samsung-galaxys20ultra-cosmicgrey-portrait.png" width="300"  />
+<img src="./docs/assets/Screenshot_20230716-190519_Bard_google-pixel4xl-ohsoorange-portrait.png" width="300"  />
 </div>
 
 ## Installation
