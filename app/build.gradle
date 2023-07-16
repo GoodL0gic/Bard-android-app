@@ -8,7 +8,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.matthaigh27.chatgptwrapper"
+        applicationId "com.matthaigh27.bardwrapper"
         minSdk 28
         targetSdk 33
         versionCode 1

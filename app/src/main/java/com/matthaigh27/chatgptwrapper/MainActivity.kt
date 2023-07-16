@@ -21,7 +21,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 class MainActivity : Activity() {
     private val userAgent =
         "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.135 Mobile Safari/537.36"
-    private val chatUrl = "https://chat.openai.com/"
+    private val chatUrl = "https://bard.google.com/"
     private lateinit var binding: ActivityMainBinding
     private lateinit var webView: WebView
     private lateinit var swipeLayout: SwipeRefreshLayout
@@ -66,7 +66,7 @@ class MainActivity : Activity() {
                 }
 
                 if (webView.url.toString().contains(chatUrl) &&
-                    !webView.url.toString().contains("/auth")
+                    !webView.url.toString().contains("?hl=en")
                 ) {
                     val intent = Intent(Intent.ACTION_VIEW, url)
                     startActivity(intent)
@@ -80,7 +80,7 @@ class MainActivity : Activity() {
                 super.onPageFinished(view, url)
                 swipeLayout.isRefreshing = false
                 swipeLayout.isEnabled = !(webView.url.toString().contains(chatUrl) &&
-                                        !webView.url.toString().contains("/auth"))
+                                        !webView.url.toString().contains("?hl=en"))
 
                 webView.evaluateJavascript(
                     """
